@@ -1,2 +1,3 @@
 type boot_prop, property_type;
 set_prop(system_server, boot_prop);
+allow untrusted_app camera_prop:file { read }
